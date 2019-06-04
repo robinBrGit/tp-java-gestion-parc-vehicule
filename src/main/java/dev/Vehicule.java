@@ -1,6 +1,6 @@
 package dev;
 
-public class Vehicule {
+public abstract class Vehicule {
 	// Modele du vehicule
 	protected String modele;
 	// Année d'achat du vehicule

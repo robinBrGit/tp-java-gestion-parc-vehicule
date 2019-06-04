@@ -7,12 +7,10 @@ package dev;
 public class App {
 	public static void main(String[] args) {
 
-		Vehicule unVehicule = new Vehicule("Audi A3", 2009, 24000, "FG-875-RF", 'B');
 		Voiture uneVoiture = new Voiture("Clio", 2012, 13000, "GH-547-TG", 'B', true);
 		Camion unCamion = new Camion("Iveco Eurocargo", 2015, 35000, "ED-787-GH", 'C', 115);
 		Autocar unAutocars = new Autocar("Fiat 306", 1998, 30000, "DS-741-FG", 'D', 54, (short) 10);
 
-		unVehicule.afficherVehicule();
 		uneVoiture.afficherVehicule();
 		unCamion.afficherVehicule();
 		unAutocars.afficherVehicule();
